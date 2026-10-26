@@ -1,0 +1,119 @@
+{
+  "overall": {
+    "clips": 148,
+    "wer": 0.3407295975930801,
+    "cer": 0.13392343947580182,
+    "raw_cer": 0.15309278350515465,
+    "word_edits": {
+      "substitutions": 658,
+      "deletions": 179,
+      "insertions": 69,
+      "reference_units": 2659
+    },
+    "missing_word_rate": 0.06731854080481384,
+    "insertion_rate": 0.025949605114704778,
+    "entities": {
+      "number": {
+        "total": 77,
+        "exact_accuracy": 0.6753246753246753,
+        "mean_similarity": 0.8452556476801582
+      }
+    },
+    "silence_hallucination_rate": null,
+    "latency_seconds": 573.1126974930412,
+    "audio_seconds": 1667.8799999999999,
+    "real_time_factor": 0.34361746498131834,
+    "peak_vram_mb": 3763.0,
+    "api_cost_usd": 0.0
+  },
+  "by_stratum": {
+    "code_switch": {
+      "clips": 34,
+      "wer": 0.46805349182763745,
+      "cer": 0.25773195876288657,
+      "raw_cer": 0.2693617987735635,
+      "word_edits": {
+        "substitutions": 203,
+        "deletions": 105,
+        "insertions": 7,
+        "reference_units": 673
+      },
+      "missing_word_rate": 0.15601783060921248,
+      "insertion_rate": 0.010401188707280832,
+      "entities": {
+        "number": {
+          "total": 15,
+          "exact_accuracy": 0.5333333333333333,
+          "mean_similarity": 0.7656084656084656
+        }
+      },
+      "silence_hallucination_rate": null,
+      "latency_seconds": 165.5478824689999,
+      "audio_seconds": 417.9599999999999,
+      "real_time_factor": 0.3960854686309693,
+      "peak_vram_mb": 3763.0,
+      "api_cost_usd": 0.0
+    },
+    "names_numbers": {
+      "clips": 31,
+      "wer": 0.2993730407523511,
+      "cer": 0.10073839662447258,
+      "raw_cer": 0.1502495403204623,
+      "word_edits": {
+        "substitutions": 138,
+        "deletions": 38,
+        "insertions": 15,
+        "reference_units": 638
+      },
+      "missing_word_rate": 0.05956112852664577,
+      "insertion_rate": 0.023510971786833857,
+      "entities": {
+        "number": {
+          "total": 62,
+          "exact_accuracy": 0.7096774193548387,
+          "mean_similarity": 0.8645251272136321
+        }
+      },
+      "silence_hallucination_rate": null,
+      "latency_seconds": 108.14085466600591,
+      "audio_seconds": 388.19999999999993,
+      "real_time_factor": 0.2785699501957906,
+      "peak_vram_mb": 3763.0,
+      "api_cost_usd": 0.0
+    },
+    "normal_nepali": {
+      "clips": 83,
+      "wer": 0.29673590504451036,
+      "cer": 0.08905962558164701,
+      "raw_cer": 0.09891891891891892,
+      "word_edits": {
+        "substitutions": 317,
+        "deletions": 36,
+        "insertions": 47,
+        "reference_units": 1348
+      },
+      "missing_word_rate": 0.026706231454005934,
+      "insertion_rate": 0.034866468842729974,
+      "entities": {},
+      "silence_hallucination_rate": null,
+      "latency_seconds": 299.4239603580354,
+      "audio_seconds": 861.7200000000004,
+      "real_time_factor": 0.3474724508634304,
+      "peak_vram_mb": 3763.0,
+      "api_cost_usd": 0.0
+    }
+  },
+  "coverage": {
+    "successful": 148,
+    "attempted": 150,
+    "manifest": 150,
+    "missing_or_failed_ids": [
+      "fleurs-ne-val-0019",
+      "fleurs-ne-val-0021"
+    ]
+  },
+  "errors": {
+    "ok": 148,
+    "error": 2
+  }
+}

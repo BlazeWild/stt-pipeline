@@ -1,0 +1,114 @@
+{
+  "overall": {
+    "clips": 150,
+    "wer": 0.9204881656804734,
+    "cer": 0.27872472959963757,
+    "raw_cer": 0.28762485187066195,
+    "word_edits": {
+      "substitutions": 1842,
+      "deletions": 68,
+      "insertions": 579,
+      "reference_units": 2704
+    },
+    "missing_word_rate": 0.02514792899408284,
+    "insertion_rate": 0.21412721893491124,
+    "entities": {
+      "number": {
+        "total": 80,
+        "exact_accuracy": 0.6125,
+        "mean_similarity": 0.7448066516816516
+      }
+    },
+    "silence_hallucination_rate": null,
+    "latency_seconds": 510.6134783350062,
+    "audio_seconds": 1690.56,
+    "real_time_factor": 0.30203806924037374,
+    "peak_vram_mb": 3374.0,
+    "api_cost_usd": 0.0
+  },
+  "by_stratum": {
+    "code_switch": {
+      "clips": 35,
+      "wer": 0.9300998573466477,
+      "cer": 0.3536021150033047,
+      "raw_cer": 0.3650863010705702,
+      "word_edits": {
+        "substitutions": 473,
+        "deletions": 40,
+        "insertions": 139,
+        "reference_units": 701
+      },
+      "missing_word_rate": 0.05706134094151213,
+      "insertion_rate": 0.19828815977175462,
+      "entities": {
+        "number": {
+          "total": 15,
+          "exact_accuracy": 0.4666666666666667,
+          "mean_similarity": 0.8106837606837607
+        }
+      },
+      "silence_hallucination_rate": null,
+      "latency_seconds": 174.48279542399905,
+      "audio_seconds": 430.97999999999996,
+      "real_time_factor": 0.4048512585827627,
+      "peak_vram_mb": 3374.0,
+      "api_cost_usd": 0.0
+    },
+    "names_numbers": {
+      "clips": 32,
+      "wer": 0.7923664122137405,
+      "cer": 0.24361948955916474,
+      "raw_cer": 0.2529532614278377,
+      "word_edits": {
+        "substitutions": 387,
+        "deletions": 13,
+        "insertions": 119,
+        "reference_units": 655
+      },
+      "missing_word_rate": 0.01984732824427481,
+      "insertion_rate": 0.18167938931297709,
+      "entities": {
+        "number": {
+          "total": 65,
+          "exact_accuracy": 0.6461538461538462,
+          "mean_similarity": 0.7296042419119343
+        }
+      },
+      "silence_hallucination_rate": null,
+      "latency_seconds": 86.15380933500273,
+      "audio_seconds": 397.85999999999996,
+      "real_time_factor": 0.2165430285401969,
+      "peak_vram_mb": 3374.0,
+      "api_cost_usd": 0.0
+    },
+    "normal_nepali": {
+      "clips": 83,
+      "wer": 0.9777448071216617,
+      "cer": 0.256682177253544,
+      "raw_cer": 0.2638918918918919,
+      "word_edits": {
+        "substitutions": 982,
+        "deletions": 15,
+        "insertions": 321,
+        "reference_units": 1348
+      },
+      "missing_word_rate": 0.01112759643916914,
+      "insertion_rate": 0.2381305637982196,
+      "entities": {},
+      "silence_hallucination_rate": null,
+      "latency_seconds": 249.97687357600444,
+      "audio_seconds": 861.7200000000004,
+      "real_time_factor": 0.2900906020238643,
+      "peak_vram_mb": 3374.0,
+      "api_cost_usd": 0.0
+    }
+  },
+  "coverage": {
+    "predicted": 150,
+    "manifest": 150,
+    "missing_ids": []
+  },
+  "errors": {
+    "ok": 150
+  }
+}

@@ -1,0 +1,4 @@
+# Local inference and public-pilot preparation. Gemini is intentionally excluded.
+faster-whisper==1.2.1
+ctranslate2==4.8.3
+pyarrow==26.0.0

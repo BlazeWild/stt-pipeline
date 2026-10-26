@@ -1,0 +1,29 @@
+# Secrets and local environments
+.env
+.venv/
+.hf-cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Downloaded checkpoints and source datasets (reproducible, but too large for Git)
+models/*
+!models/**/README.md
+data/public_sources/
+data/public_pilot/audio/
+
+# Private Nagarik data must never be committed
+data/manifest.jsonl
+data/audio/
+
+# Derived and diagnostic artifacts; retain the curated benchmark summaries only
+results/*/predictions.jsonl
+results/*/run_metadata.json
+results/*/run.log
+results/gemini-timestamp-probe/
+results/*-diagnostic/
+results/*-load-check/
+
+# OS/editor files
+.DS_Store
+.vscode/

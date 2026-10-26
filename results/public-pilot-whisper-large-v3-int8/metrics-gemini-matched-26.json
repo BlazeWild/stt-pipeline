@@ -1,0 +1,109 @@
+{
+  "overall": {
+    "clips": 26,
+    "wer": 0.9488372093023256,
+    "cer": 0.2518235498436957,
+    "raw_cer": 0.25906735751295334,
+    "word_edits": {
+      "substitutions": 290,
+      "deletions": 7,
+      "insertions": 111,
+      "reference_units": 430
+    },
+    "missing_word_rate": 0.01627906976744186,
+    "insertion_rate": 0.25813953488372093,
+    "entities": {
+      "number": {
+        "total": 9,
+        "exact_accuracy": 1.0,
+        "mean_similarity": 1.0
+      }
+    },
+    "silence_hallucination_rate": null,
+    "latency_seconds": 95.81214396701034,
+    "audio_seconds": 268.2,
+    "real_time_factor": 0.3572414018158477,
+    "peak_vram_mb": 3374.0,
+    "api_cost_usd": 0.0
+  },
+  "by_stratum": {
+    "code_switch": {
+      "clips": 7,
+      "wer": 1.0064935064935066,
+      "cer": 0.2961876832844575,
+      "raw_cer": 0.3020329138431752,
+      "word_edits": {
+        "substitutions": 110,
+        "deletions": 2,
+        "insertions": 43,
+        "reference_units": 154
+      },
+      "missing_word_rate": 0.012987012987012988,
+      "insertion_rate": 0.2792207792207792,
+      "entities": {},
+      "silence_hallucination_rate": null,
+      "latency_seconds": 51.36771985400628,
+      "audio_seconds": 86.52,
+      "real_time_factor": 0.5937091984975299,
+      "peak_vram_mb": 3374.0,
+      "api_cost_usd": 0.0
+    },
+    "names_numbers": {
+      "clips": 4,
+      "wer": 0.6133333333333333,
+      "cer": 0.17804878048780487,
+      "raw_cer": 0.19082125603864733,
+      "word_edits": {
+        "substitutions": 32,
+        "deletions": 0,
+        "insertions": 14,
+        "reference_units": 75
+      },
+      "missing_word_rate": 0.0,
+      "insertion_rate": 0.18666666666666668,
+      "entities": {
+        "number": {
+          "total": 9,
+          "exact_accuracy": 1.0,
+          "mean_similarity": 1.0
+        }
+      },
+      "silence_hallucination_rate": null,
+      "latency_seconds": 8.50965107799857,
+      "audio_seconds": 44.1,
+      "real_time_factor": 0.1929626094784256,
+      "peak_vram_mb": 3374.0,
+      "api_cost_usd": 0.0
+    },
+    "normal_nepali": {
+      "clips": 15,
+      "wer": 1.0298507462686568,
+      "cer": 0.2413554633471646,
+      "raw_cer": 0.2479281767955801,
+      "word_edits": {
+        "substitutions": 148,
+        "deletions": 5,
+        "insertions": 54,
+        "reference_units": 201
+      },
+      "missing_word_rate": 0.024875621890547265,
+      "insertion_rate": 0.26865671641791045,
+      "entities": {},
+      "silence_hallucination_rate": null,
+      "latency_seconds": 35.93477303500549,
+      "audio_seconds": 137.58,
+      "real_time_factor": 0.2611918377308147,
+      "peak_vram_mb": 3374.0,
+      "api_cost_usd": 0.0
+    }
+  },
+  "coverage": {
+    "successful": 26,
+    "attempted": 150,
+    "manifest": 26,
+    "missing_or_failed_ids": []
+  },
+  "errors": {
+    "ok": 26
+  }
+}
