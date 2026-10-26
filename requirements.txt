@@ -3,4 +3,5 @@ faster-whisper==1.2.1
 ctranslate2==4.8.3
 pyarrow==26.0.0
 # faster-whisper 1.2.1 uses av.open(..., metadata_errors=...), removed in PyAV 19.
-av==14.4.0
+# 18.1.0 has Python 3.13 wheels; older pins may force a source build on Kaggle.
+av==18.1.0
